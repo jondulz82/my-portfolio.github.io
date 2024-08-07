@@ -1,0 +1,541 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styles */
+header {
+    background: #000;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 25%; /* Adjust this value to match your desired logo size */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.0em;
+}
+
+/* Home section styles */
+#home {
+    background-image: url(assets/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    color: white;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 10em;
+    font-weight: bold;
+    margin: 100px 0 0px 0;
+    text-align: left;
+}
+
+#home h2 {
+    font-size: 5em;
+    margin: 0;
+    text-align: left;
+}
+
+#home a {
+    background-color: #062b6f;
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    margin: 100px 100px 100px 450px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+#home a:hover{
+    color: #662b6f;
+    background: #fff;
+}
+
+#about {
+    background-image: url(assets/yelbanner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+	color: #000;
+    text-align: left;
+}
+
+.myphoto {
+	width: 100%;
+	margin: auto;
+    padding: 35px 0 35px 0;
+}
+
+.myphoto img {
+    width: 1000px; 
+    height: auto;
+    margin-right: 50px;
+    margin-left: 300px;
+    float:left;
+}
+
+#myphoto:after{
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.text-content {
+    max-width: 2550px;
+}
+
+.text-content h2 {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    font-size: 2.5em;
+    line-height: 1.2;
+}
+
+.services {
+    background-image: url('assets/blkbg.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    color: white;
+    text-align: center;
+}
+
+.offer {
+    max-width: 2300px;
+    margin: 0 auto;
+}
+
+.offer h2 {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.offer h2 {
+    font-size: 5em;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.service-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobs {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.jobs img {
+    width: 10%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.jobs h3 {
+    font-size: 3em;
+    margin: 20px 0 10px;
+}
+
+.jobs p {
+    font-size: 2em;
+    line-height: 1.5;
+}
+
+.portfolio {
+    background-image: url(assets/yelbanner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+	color: #000;
+    text-align: center;
+}
+
+.tasks {
+    max-width: 2300px;
+    margin: 0 auto;
+    color: rgb(10, 10, 10);
+}
+
+.tasks h2 {
+    font-size: 5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.tasks h3 {
+    font-size: 4em;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.portfolio-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-item {
+    padding: 10px;
+    border-radius: 10px;
+    flex-basis: 30%;
+    text-align: left;
+}
+
+.portfolio-item h4 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.portfolio-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.portfolio-item li {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.testimonials {
+    background-image: url(assets/blkbg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    color: white;
+    text-align: center;
+}
+
+.feedbacks {
+    max-width: 2300px;
+    margin: 0 auto;
+}
+
+.feedbacks h2 {
+    font-size: 5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.feedbacks h3 {
+    font-size: 3.5em;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.feedback-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimony {
+    padding: 20px;
+    border-radius: 10px;
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.testimony p {
+    font-size: 2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.testimony h4 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.stars {
+    font-size: 2.5em;
+    color: gold;
+}
+
+.contact {
+    background-image: url('assets/yelbanner.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+	color: #000;
+    text-align: center;
+}
+
+.contact-page {
+    max-width: 2300px;
+    margin: 0 auto;
+}
+
+.contact-page h2 {
+    font-size: 5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.contact-page h3 {
+    font-size: 4em;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.contact-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-info, .appointment-form {
+    padding: 20px;
+    border-radius: 10px;
+    flex-basis: 45%;
+    text-align: left;
+}
+
+.contact-info h4, .appointment-form h4 {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 2em;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.socialmedia {
+    margin-top: 20px;
+}
+
+.socialmedia {
+    margin-right: 10px;
+}
+
+.socialmedia {
+    width: 100px;
+    height: 100px;
+}
+
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 80%;
+    height: 800%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+form button {
+    padding: 10px 20px;
+    border: 2;
+    border-radius: 5px;
+    background-color: rgb(179, 179, 178);
+    color: black;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: darkgoldenrod;
+}
+
+
+.footers {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styles */
+footer {
+    background: #000;
+    padding: 1rem 0;
+}
+
+footer .footers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footlogo img {
+    height: 25%; /* Adjust this value to match your desired logo size */
+}
+
+
+.footcopyright {
+    flex: 2;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.footbutton ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.footbutton ul li {
+    margin-left: 20px;
+}
+
+.footbutton ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.0em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    footer .footers {
+        flex-direction: column;
+    }
+    
+    .footbutton {
+        margin-top: 1rem;
+    }
+    
+    .footbutton ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footbutton ul li {
+        margin: 0.5rem 0;
+    }
+}
+
+/* Media Queries for Responsiveness */
+
+/* Small Devices (Mobile Phones) */
+@media (max-width: 576px) {
+    .container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+    }
+
+    #home h1 {
+        font-size: 2.5em; /* Adjust font size for small screens */
+    }
+
+    #home h2 {
+        font-size: 1.2em; /* Adjust subheading size for small screens */
+    }
+
+    .myphoto {
+        flex-direction: column; /* Stack vertically on small screens */
+        align-items: center; /* Center align */
+    }
+
+    .service-columns, .portfolio-columns, .feedback-columns {
+        flex-direction: column; /* Stack vertically on small screens */
+        align-items: center; /* Center align */
+    }
+
+    .contact-columns {
+        flex-direction: column; /* Stack vertically on small screens */
+    }
+
+    .jobs, .portfolio-item, .testimony {
+        max-width: 100%; /* Full width for small screens */
+    }
+
+    input, textarea {
+        font-size: 0.9em; /* Smaller font size for inputs */
+    }
+}
+
+/* Medium Devices (Tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+    #home h1 {
+        font-size: 3em; /* Adjust font size for medium screens */
+    }
+
+    #home h2 {
+        font-size: 1.5em; /* Adjust subheading size for medium screens */
+    }
+
+    .service-columns, .portfolio-columns, .feedback-columns {
+        flex-direction: row; /* Row layout for medium screens */
+        justify-content: space-around; /* Space items */
+    }
+
+    .jobs, .portfolio-item, .testimony {
+        max-width: 45%; /* Limit width for medium screens */
+    }
+}
+
+/* Large Devices (Desktops) */
+@media (min-width: 769px) {
+
+    .service-columns, .portfolio-columns, .feedback-columns {
+        flex-direction: row; /* Row layout for large screens */
+        justify-content: space-between; /* Space items */
+    }
+
+    .jobs, .portfolio-item, .testimony {
+        max-width: 30%; /* Limit width for large screens */
+    }
+
+    .contact-columns {
+        justify-content: space-between; /* Space items */
+    }
+}
